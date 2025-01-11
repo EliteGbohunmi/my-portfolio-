@@ -154,9 +154,9 @@ animation: closes 1s linear 2.5S forwards;
 
     position: absolute;
 
-    width: fit-content;
+    width: max-content;
 
-    font-size: 2.2vmax;
+    font-size: 4.2vmax;
 
     display: flex;
 
