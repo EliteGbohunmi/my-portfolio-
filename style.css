@@ -21,7 +21,9 @@
     display: none;
 
 }
-
+a{
+    text-decoration:none;
+}
 .custom-shape-divider-top-1733824198 {
 
     position: absolute;
