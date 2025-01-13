@@ -358,14 +358,15 @@ li a {
 
     border: 1px solid var(--secondary-col);
 
-    color: var(--secondary-col);
-
+    color:var(--secondary-col);
     cursor: pointer;
 
     transition: var(--transition);
 
 }
-
+.hero .first_slide button a{
+color:var(--secondary-col);
+}
 .hero .first_slide button:hover {
 
     background-color: var(--secondary-col);
