@@ -852,7 +852,7 @@ footer .copy h5 {
 /* Call to Action Section */
 .cta {
     text-align: center;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+    
     color: white;
     padding: 60px 20px;
     border-radius: 10px;
@@ -875,7 +875,8 @@ footer .copy h5 {
 .cta-button {
     display: inline-block;
     padding: 12px 25px;
-    background: #22c55e;
+    background-color: var(--secondary-col);
+
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
