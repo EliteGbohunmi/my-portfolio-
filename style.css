@@ -730,7 +730,8 @@ h5 i {
     height: 100%;
 
     color: var(--last-col);
-
+ flex: 1; /* Allows text to grow but keeps proportion */
+  min-width: 50%;
 
 
     gap: 1rem;
