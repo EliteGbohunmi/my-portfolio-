@@ -68,6 +68,3 @@ ScrollReveal().reveal(' .card2', { delay: 700 , origin:'left' });
 
 
 
-let name = ["Gbohunmi", "Williams" , "Ayomide"];
-
-console.log(name)
