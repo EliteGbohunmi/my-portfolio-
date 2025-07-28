@@ -12,7 +12,11 @@ position: relative;
 }
 
 
+.buttons button{
+padding:7px 12px;
+  border:1px solid  #00bfff;
 
+}
 .about::before {
 
   content: "";
@@ -1297,6 +1301,9 @@ footer .copy h5 {
     }
 
 
+.about > #headline{
+padding:auto 30px;
+}
 
     li a {
 
