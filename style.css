@@ -10,7 +10,9 @@ position: relative;
   background-color: hsla(244.85, 100%, 15%, 1);
 
 }
-
+.about img{
+  border-radius:12px;
+}
 
 .buttons button{
 padding:7px 12px;
