@@ -974,32 +974,25 @@ h5 i {
 
 
 
-.buttons {
-
-    position: fixed;
-
-    bottom: 0;
-
-    right: 0;
-
-    padding: 20px 20px;
+.completed{
+  display: flex;
+  gap: 2rem;
+  margin: 10px 0;
 
 }
+.completed h1{
+  font-size:40px;
+  margin:-10px 0;
+  padding: 10px 0;
+}
+.completed p{
+  color: #ffb144;
+  margin:-20px 0;
+  font-size: 14px;
+}
 
-.buttons button {
-
-    width: 60px;
-
-    height: 60px;
-
-    border-radius: 50%;
-
-    border: 1px solid white;
-
-    background: var(--secondary-col);
-
-    text-align: center;
-
+.buttons{
+display:flex;
 }
 
 footer {
@@ -1250,7 +1243,13 @@ footer .copy h5 {
 
 
 @media (max-width:768px) {
+  .about_cont {
 
+    grid-template-columns: 1fr;
+
+    padding: 30px 20px;
+
+  }
     ul {
 
         position: fixed;
